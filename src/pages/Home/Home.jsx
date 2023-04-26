@@ -22,14 +22,14 @@ const Home = () => {
         <div className="social">
           <h3>find me on</h3>
           <div className="social-items">
-            <Link className='social-item'>
-              <FiGithub/>
+            <Link to="/" className='social-item'>
+              <FiGithub className='icon'/>
             </Link>
-            <Link className='social-item'>
-              <FiLinkedin/>
+            <Link to="/" className='social-item'>
+              <FiLinkedin className='icon'/>
             </Link>
-            <Link className='social-item'>
-              <FiTwitter/>
+            <Link to="/" className='social-item'>
+              <FiTwitter className='icon'/>
             </Link>
           </div>
         </div>

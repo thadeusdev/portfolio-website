@@ -30,7 +30,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="button">
-        download cv
+        download cv       
       </div>
     </div>
   )
