@@ -1,0 +1,45 @@
+.services{
+    margin: 0px 110px;
+    padding: 40px 0px 60px 0px;
+    color: white;
+    border-bottom: 2px solid #15151aab;
+    
+    span{}
+    h2{
+        font-size: 65px;
+        text-transform: capitalize;
+    }
+
+    .items{
+        display: flex;
+        gap: 20px;
+
+        .item{
+            -webkit-box-shadow: 1px 6px 14px -1px #15151aab; 
+            box-shadow: 1px 6px 14px -1px #15151aab;
+            height: 300px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            border-radius: 10px;
+
+            .icon{
+                height: 50px;
+                width: 50px;
+                color: #f40840;
+                font-weight: 300;
+            }
+            h3{
+                font-size: 30px;
+                text-transform: capitalize;
+                font-weight: 600;
+            }
+            span{}
+
+            &:hover{
+                background-color: #f40840;
+            }
+        }
+    }
+}
