@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.scss'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
   return (
@@ -12,20 +12,56 @@ const Navbar = () => {
         </div>
         <span>Nyariki</span>
       </div>
-      <div className="links">
-        <Link to='/' className='link'>
+      <div className='links'>
+        <Link 
+          to='home' 
+          className='link'
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}                         
+        >
           <span>home</span>
         </Link>
-        <Link to='/services' className='link'>
+        <Link 
+          to='services' 
+          className='link'
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}                  
+        >
           <span>services</span>
         </Link>
-        <Link to='/portfolio' className='link'>
+        <Link 
+          to='portfolio' 
+          className='link'
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}                  
+        >
           <span>portfolio</span>
         </Link>
-        <Link to='/resume' className='link'>
+        <Link 
+          to='resume' 
+          className='link'
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}                  
+        >
           <span>resume</span>
         </Link>
-        <Link to='/contact' className='link'>
+        <Link 
+          to='contact' 
+          className='link'
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}                  
+        >
           <span>contact</span>
         </Link>
       </div>

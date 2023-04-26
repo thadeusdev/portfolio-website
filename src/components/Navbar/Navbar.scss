@@ -49,6 +49,7 @@
             text-decoration: none;
             color: white;
             position: relative;
+            cursor: pointer;
 
             &:hover::after,
             &:focus::after{
