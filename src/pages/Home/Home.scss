@@ -82,6 +82,9 @@
         // background-color: red;
         flex: 1;
         position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         .frame{
             position: absolute;

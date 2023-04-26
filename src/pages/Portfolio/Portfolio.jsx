@@ -15,7 +15,7 @@ const Portfolio = () => {
             <div className="item-circle"></div>
             <div className="item-circle"></div>
           </div>
-          <a href="http://" target="_blank" rel="noreferrer">
+          <a href="https://carguruz.netlify.app/" target="_blank" rel="noreferrer">
             <img src={require('../../assets/carguruz.png')} alt="" />
           </a>
         </div>
@@ -25,7 +25,7 @@ const Portfolio = () => {
             <div className="item-circle"></div>
             <div className="item-circle"></div>
           </div>
-          <a href="http://" target="_blank" rel="noreferrer">
+          <a href="https://fiverr-thadeus.netlify.app/" target="_blank" rel="noreferrer">
             <img src={require('../../assets/fiverr.png')} alt="" />
           </a>
         </div>
@@ -35,7 +35,7 @@ const Portfolio = () => {
             <div className="item-circle"></div>
             <div className="item-circle"></div>
           </div>
-          <a href="http://" target="_blank" rel="noreferrer">
+          <a href="https://ecommerce-thadeus.netlify.app/" target="_blank" rel="noreferrer">
             <img src={require('../../assets/ecommerce.png')} alt="" />
           </a>
         </div>
