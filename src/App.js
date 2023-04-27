@@ -9,6 +9,8 @@ import Contact from './pages/Contact/Contact'
 import Portfolio from './pages/Portfolio/Portfolio'
 import Resume from './pages/Resume/Resume'
 import Services from './pages/Services/Services'
+import Testimonials from './pages/Testimonials/Testimonials'
+import Clients from './pages/Clients/Clients'
 
 const Layout = () => {
   return (
@@ -18,8 +20,8 @@ const Layout = () => {
       <Services/>
       <Portfolio/>
       <Resume/>
-      {/* <Testimonial/> */}
-      {/* <Clients/> */}
+      <Testimonials/>
+      <Clients/>
       <Contact/>
       <Footer />
     </div>

@@ -4,7 +4,10 @@ import { Link } from 'react-router-dom';
 import { 
   FiTwitter, 
   FiGithub, 
-  FiLinkedin 
+  FiLinkedin,
+  FiFacebook,
+  FiYoutube,
+  FiInstagram
 } from "react-icons/fi";
 
 const Home = () => {
@@ -30,6 +33,15 @@ const Home = () => {
             </Link>
             <Link to="/" className='social-item'>
               <FiTwitter className='icon'/>
+            </Link>
+            <Link to="/" className='social-item'>
+              <FiFacebook className='icon'/>
+            </Link>
+            <Link to="/" className='social-item'>
+              <FiYoutube className='icon'/>
+            </Link>
+            <Link to="/" className='social-item'>
+              <FiInstagram className='icon'/>
             </Link>
           </div>
         </div>

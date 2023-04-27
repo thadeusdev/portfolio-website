@@ -89,15 +89,16 @@
         .frame{
             position: absolute;
             width: 400px;
-            height: 450px;
+            height: 400px;
             background-color: #20211f;
-            top: 25px;
+            top: 90px;
             border-radius: 10px;
         }
         img{
             position: absolute;
             height: 550px;
-            top: -50px;
+            top: -60px;
+            right: -5px;
         }
     }
 }
