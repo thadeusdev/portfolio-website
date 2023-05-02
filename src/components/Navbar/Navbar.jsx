@@ -63,10 +63,10 @@ const Navbar = () => {
         >
           <span>contact</span>
         </Link>
-      </div>
+      </div>      
       <div className="button">
-        download cv       
-      </div>
+        download cv      
+      </div>      
     </div>
   )
 }
