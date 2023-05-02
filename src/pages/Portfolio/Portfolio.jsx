@@ -3,6 +3,7 @@ import './Portfolio.scss'
 import { 
   AiOutlineArrowRight 
 } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
   return (
@@ -44,10 +45,12 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="more">
-        <button>
-          View All Works 
-          <AiOutlineArrowRight className='more-icon'/>
-        </button>
+        <Link to="/" style={{textDecoration: "none"}}>
+          <button>
+            View All Works 
+            <AiOutlineArrowRight className='more-icon'/>
+          </button>
+        </Link>
       </div>
     </div>
   )
