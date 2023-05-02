@@ -1,0 +1,107 @@
+.resume{
+    margin: 0px 110px;
+    padding: 40px 0px 60px 0px;
+    border-bottom: 2px solid #15151aab;
+
+    .top{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        span{}
+        h2{
+            font-size: 65px;
+            text-transform: capitalize;
+            color: #f6e8f8;
+        }
+    }
+    .bottom{
+        display: flex;
+        margin-top: 20px;
+
+        .left{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .left-top{
+                h3{
+                    font-size: 35px;
+                    color: #f8f8f8;
+                }
+            }
+            .left-bottom{
+                display: flex;
+                flex-direction: column;
+                // gap: 10px;
+                .left-container{
+                    display: flex;
+                    // gap: 10px;
+                    .line-up{
+                        background-color: #181518;
+                        height: auto;
+                        width: 3px;
+                    }
+
+                    .left-item{
+                        display: flex;
+                        position: relative;
+
+                        .knot{
+                            background-color: #181518;
+                            height: 8px;
+                            width: 8px;
+                            border-radius: 50%;
+                            display: flex;
+                            align-self: center;
+                            position: absolute;
+                            left: -5.6px;
+                        }
+
+                        .line-across{
+                            background-color: #181518;
+                            height: 3px;
+                            width: 20px;
+                            display: flex;
+                            align-self: center;
+                            // position: relative;
+                        }
+
+                        .item-wrapper{
+                            -webkit-box-shadow: 1px 6px 14px -1px #15151aab; 
+                            box-shadow: 1px 6px 14px -1px #15151aab;
+                            height: 200px;
+                            width: 450px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+                            padding: 20px;
+                            border-radius: 10px;
+                            margin-bottom: 20px;
+
+                            .header{
+                                h3{
+                                    font-size: 25px;
+                                    color: #c2d9e5;
+                                }
+                                span{
+                                    color: #626b73;
+                                }
+                            }
+                            p{
+                                color: #808591;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .right{
+            // background-color: blue;
+            flex: 1;
+        }
+    }
+}

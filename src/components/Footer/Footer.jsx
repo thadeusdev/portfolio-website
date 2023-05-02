@@ -15,10 +15,10 @@ const Footer = () => {
     <div className='footer'>
       <div className="logo">
         <div className="initial">
-          <span>T</span>
+          <span style={{color: "#f40840"}}>T</span>
           <div className="dot"></div>
         </div>
-        <span>Nyariki</span>
+        <span style={{color: "#f6e8f8"}}>Nyariki</span>
       </div>
       <div className="social">
         <Link to="/" className='social-item'>

@@ -10,7 +10,7 @@ const Navbar = () => {
           <span>T</span>
           <div className="dot"></div>
         </div>
-        <span>Nyariki</span>
+        <span style={{color: '#f6e8f8'}}>Nyariki</span>
       </div>
       <div className='links'>
         <Link 

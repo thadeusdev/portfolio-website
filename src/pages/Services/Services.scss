@@ -9,6 +9,7 @@
     h2{
         font-size: 65px;
         text-transform: capitalize;
+        color: #f6e8f8;
     }
 
     .items{
@@ -35,8 +36,11 @@
                 font-size: 30px;
                 text-transform: capitalize;
                 font-weight: 600;
+                color: #c2d9e5;
             }
-            span{}
+            span{
+                color: #808591;
+            }
         }
     }
 }
