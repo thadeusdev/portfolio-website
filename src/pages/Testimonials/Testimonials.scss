@@ -1,0 +1,110 @@
+.testimonials{
+    margin: 0px 110px;
+    padding: 40px 0px 60px 0px;
+    border-bottom: 2px solid #15151aab;
+    display: flex;
+    flex-direction: column;
+
+    .top{
+        display: flex;
+        align-items: center;
+
+        .left{
+            flex: 1;
+
+            span{}
+            h2{
+                font-size: 60px;
+                text-transform: capitalize;
+                color: #f6e8f8;
+            }
+        }
+
+        .right{
+            display: flex;
+            gap: 20px;
+
+            button{
+                -webkit-box-shadow: 1px 6px 14px -1px #15151aab; 
+                box-shadow: 1px 6px 14px -1px #15151aab;
+                height: 50px;
+                width: 50px;
+                background-color: #32322e;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+
+                .icon{
+                    color: #f6e8f8;
+                    font-size: 20px;
+                }
+            }
+        }  
+    }
+
+    .bottom{
+        margin-top: 20px;
+
+        .testimonial-item{
+            -webkit-box-shadow: 1px 6px 14px -1px #15151aab; 
+            box-shadow: 1px 6px 14px -1px #15151aab;
+            background-color: #32322e;
+            height: 170px;
+            width: 250px !important;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px !important;
+
+            .top-item{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .quote{
+                    font-size: 25px;
+                    color: #f40840;
+                }
+                .star{
+                    display: flex;
+
+                    .star-icon{
+                        font-size: 13px;
+                        color:#df7828 !important;
+                    }
+                }
+            }
+            .center-item{
+                span{
+                    color: #a1aab6;
+                    font-size: 13px;
+                }
+            }
+            .bottom-item{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-top: 20px;
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                .details{
+                    h4{
+                        color: #dfe6e1;
+                    }
+
+                    span{
+                        color: #a1aab6;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
