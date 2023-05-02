@@ -80,7 +80,6 @@
         }
     }
     .right{
-        // background-color: red;
         flex: 1;
         position: relative;
         display: flex;
@@ -92,14 +91,12 @@
             width: 400px;
             height: 400px;
             background-color: #20211f;
-            top: 90px;
+            top: 150px;
             border-radius: 10px;
         }
         img{
-            position: absolute;
             height: 550px;
-            top: -60px;
-            right: -5px;
+            z-index: 90;
         }
     }
 }
