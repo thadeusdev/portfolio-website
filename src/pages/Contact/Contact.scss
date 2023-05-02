@@ -1,0 +1,154 @@
+.contact{
+    margin: 0px 110px;
+    padding: 40px 0px 60px 0px;
+    border-bottom: 2px solid #15151aab;
+    display: flex;
+    flex-direction: column;
+
+    .top{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        span{}
+        h2{
+            font-size: 60px;
+            text-transform: capitalize;
+            color: #f6e8f8;
+        }
+    }
+
+    .bottom{
+        margin-top: 20px;
+        display: flex;
+        // align-items: center;
+
+        .left{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+
+            .left-item{
+                -webkit-box-shadow: 1px 6px 14px -1px #15151aab; 
+                box-shadow: 1px 6px 14px -1px #15151aab;
+                background-color: #272b30;
+                height: 100px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 20px;
+                padding: 20px;
+                border-radius: 10px;
+
+                .icon{
+                    margin-bottom: 20px;
+                    font-size: 30px;
+                    color: #f40840;
+                }
+
+                span{
+                    color: #b5c1d4;
+                }
+            }
+        }
+
+        .right{
+            flex: 2;
+
+            .form{
+                -webkit-box-shadow: 1px 6px 14px -1px #15151aab; 
+                box-shadow: 1px 6px 14px -1px #15151aab;
+                background-color: #272b30;
+                padding: 20px;
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+                border-radius: 10px;
+
+                .input{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 20px;
+
+                    .input-left{
+                        flex: 1;
+
+                        input{
+                            -webkit-box-shadow: 1px 6px 14px -1px #15151aab; 
+                            box-shadow: 1px 6px 14px -1px #15151aab;
+                            background-color: #141818;
+                            padding: 20px;
+                            margin: 10px;
+                            color: #b5c1d4;
+                            border: none;
+                            border-radius: 10px;
+                            width: 80%;
+                            font-weight: 600;
+                        }
+                    }
+
+                    .input-right{
+                        flex: 1;
+
+                        input{
+                            -webkit-box-shadow: 1px 6px 14px -1px #15151aab; 
+                            box-shadow: 1px 6px 14px -1px #15151aab;
+                            background-color: #141818;
+                            padding: 20px;
+                            margin: 10px;
+                            color: #b5c1d4;
+                            border: none;
+                            border-radius: 10px;
+                            width: 80%;
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+                .message{
+                    display: flex;
+
+                    textarea{
+                        -webkit-box-shadow: 1px 6px 14px -1px #15151aab; 
+                        box-shadow: 1px 6px 14px -1px #15151aab;
+                        flex: 1;
+                        margin: 10px;
+                        padding: 20px;
+                        border-radius: 10px;
+                        background-color: #141818;
+                        border: none;
+                        color: #b5c1d4;
+                        font-weight: 600;
+                    }
+                }
+
+                .send{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 10px;
+
+                    button{
+                        -webkit-box-shadow: 1px 6px 14px -1px #15151aab; 
+                        box-shadow: 1px 6px 14px -1px #15151aab;
+                        padding: 10px 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 10px;
+                        background-color: #141818;
+                        color: #b5c1d4;
+                        font-weight: 600;
+                        border: none;
+                        border-radius: 10px;
+                        margin-bottom: 8px;
+
+                        .send-icon{}
+                    }
+                }
+            }
+        }
+    }
+}
