@@ -1,5 +1,8 @@
 import React from 'react'
 import './Portfolio.scss'
+import { 
+  AiOutlineArrowRight 
+} from "react-icons/ai";
 
 const Portfolio = () => {
   return (
@@ -39,6 +42,12 @@ const Portfolio = () => {
             <img src={require('../../assets/ecommerce.png')} alt="" />
           </a>
         </div>
+      </div>
+      <div className="more">
+        <button>
+          View All Works 
+          <AiOutlineArrowRight className='more-icon'/>
+        </button>
       </div>
     </div>
   )

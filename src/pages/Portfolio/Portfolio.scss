@@ -42,7 +42,7 @@
                     height: 6px;
                     border-radius: 50%;
                     margin: 3px;
-                    background: white;
+                    background: #f6e8f8;
                 }
             }
             a{
@@ -54,6 +54,31 @@
                     transform: translateY(-100%);
                 }
             }
+        }
+    }
+
+    .more{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+
+        button{
+            -webkit-box-shadow: 1px 6px 14px -1px #15151aab; 
+            box-shadow: 1px 6px 14px -1px #15151aab;
+            background-color: #1a1b25;
+            padding: 10px 20px;
+            color: #d3dfdb;
+            border: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 600;
+
+            .more-icon{}
         }
     }
 }
