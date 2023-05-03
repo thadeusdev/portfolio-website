@@ -44,3 +44,35 @@
         }
     }
 }
+
+// mobile phones
+@media only screen and (max-width: 768px){
+    .services{
+        // width: 100vw;
+        overflow-x: hidden;
+        padding: 20px;
+        margin: 0px;
+
+        span{}
+        h2{
+            font-size: 46px;
+        }
+
+        .items{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .item{
+                display: flex;
+                flex-direction: column;
+                width: 70vw;
+                height: auto;
+
+                h3{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

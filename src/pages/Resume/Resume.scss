@@ -107,3 +107,60 @@
         }
     }
 }
+
+// mobile phones
+@media only screen and (max-width:768px){
+    .resume{
+        // width: 100vw;
+        overflow-x: hidden;
+        padding: 20px;
+        margin: 0px;
+
+        .top{
+            // width: 90wv;
+            span{}
+            h2{
+                font-size: 46px;
+            }
+        }
+
+        .bottom{
+            display: flex;
+            flex-direction: column;
+
+            .left{
+                .left-top{
+                    h3{
+                        font-size: 26px;
+                    }
+                }
+
+                .left-bottom{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    width: 92vw;
+
+                    .left-container{
+                        .line-up{}
+                        .left-item{
+                            .knot{}
+                            .line-across{}
+                            .item-wrapper{
+                                width: auto;
+                                height: auto;
+
+                                .header{
+                                    h3{
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .right{}
+        }
+    }
+}

@@ -153,3 +153,60 @@
         }
     }
 }
+
+// mobile phones
+@media only screen and (max-width:768px){
+    .contact{
+        // width: 100vw;
+        overflow-x: hidden;
+        padding: 20px;
+        margin: 0px;
+        display: flex;
+
+        .top{
+            width: 92vw;
+            span{}
+            h2{
+                font-size: 46px;
+            }
+        }
+        .bottom{
+            display: flex;
+            flex-direction: column;
+            width: 92vw;
+
+            .left{
+                .left-item{
+                    height: 60px;
+                    .icon{}
+                    span{}
+                }
+            }
+
+            .right{
+                .form{
+                    .input{
+                        display: flex;
+                        flex-direction: column;
+                        
+                        .input-left{
+                            input{
+                            }
+                        }
+
+                        .input-right{
+                            input{
+                            }
+                        }
+                    }
+
+                    .message{
+                        textarea{
+                            height: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

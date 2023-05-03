@@ -62,3 +62,35 @@
         color: #f6e8f8;
     }
 }
+
+// mobile phones
+@media only screen and (max-width:768px){
+    .footer{
+        // width: 100vw;
+        overflow-x: hidden;
+        padding: 20px;
+        margin: 0px;
+
+        .logo{
+            font-size: 20px;
+        }
+
+        .social{
+            display: flex;
+            gap: 10px;
+
+            .social-item{
+                height: 30px;
+                width: 30px;
+
+                .icon{
+                    font-size: 16px;
+                }
+            }
+        }
+
+        span{
+            font-size: 13px;
+        }
+    }
+}

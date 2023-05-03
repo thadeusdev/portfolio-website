@@ -42,3 +42,41 @@
         }
     }
 }
+
+@media only screen and (max-width:768px){
+    .clients{
+        // width: 100vw;
+        overflow-x: hidden;
+        padding: 20px;
+        margin: 0px;
+
+        .top{
+            // display: flex;
+            // align-items: center;
+            // flex-direction: column;
+            width: 90vw;
+            span{}
+            h2{
+                font-size: 46px;
+            }
+        }
+
+        .bottom{
+            display: flex;
+            width: 92vw;
+
+            .bottom-item{
+                display: flex;
+                flex-wrap: wrap;
+                width: 80px;
+                height: 50px;
+                margin: 5px;
+                padding: 5px;
+
+                img{
+                    width: 70px;
+                }
+            }
+        }
+    }
+}

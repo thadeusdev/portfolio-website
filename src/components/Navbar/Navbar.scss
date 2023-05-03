@@ -8,7 +8,7 @@
     top: 0;
     z-index: 999;
     background-color: #25282d;
-    width: 100wv;
+    // background-color: red;
 
     .left{
         display: flex;
@@ -72,5 +72,29 @@
         font-weight: 600;
         cursor: pointer;
         color: #f6e8f8;
+    }
+}
+
+// mobile phone
+@media only screen and (max-width: 768px){
+    .navbar{
+        overflow-x: hidden;
+        padding: 20px;
+        margin: 0px;
+
+        .left{
+            .logo{
+                span{}
+                .dot{}
+            }
+        }
+
+        .links{
+            display: none;
+        }
+        .button{
+            font-size: 12px;
+            padding: 10px;
+        }
     }
 }
