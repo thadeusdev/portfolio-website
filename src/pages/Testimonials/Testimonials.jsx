@@ -51,7 +51,7 @@ const Testimonials = () => {
             </div>
             <div className="center-item">
               <span>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem autem excepturi deleniti unde at sapiente.
+                I'm thrilled with your software and would highly recommend it to anyone in need of a powerful business management tool.
               </span>
             </div>
             <div className="bottom-item">
@@ -87,7 +87,7 @@ const Testimonials = () => {
             </div>
             <div className="center-item">
               <span>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem autem excepturi deleniti unde at sapiente.
+                I just wanted to take a moment to express my gratitude for the incredible software you've created.
               </span>
             </div>
             <div className="bottom-item">
@@ -123,7 +123,7 @@ const Testimonials = () => {
             </div>
             <div className="center-item">
               <span>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem autem excepturi deleniti unde at sapiente.
+              As a small business owner, I was struggling to keep track of all my finances and client data. But since implementing your software, my life has become so much easier.
               </span>
             </div>
             <div className="bottom-item">
@@ -159,7 +159,7 @@ const Testimonials = () => {
             </div>
             <div className="center-item">
               <span>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem autem excepturi deleniti unde at sapiente.
+                The interface is intuitive and user-friendly, and I've been able to streamline my entire workflow.
               </span>
             </div>
             <div className="bottom-item">
@@ -195,7 +195,7 @@ const Testimonials = () => {
             </div>
             <div className="center-item">
               <span>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem autem excepturi deleniti unde at sapiente.
+                I particularly love the customizable reports feature, which has allowed me to gain a deeper insight into my business's performance
               </span>
             </div>
             <div className="bottom-item">

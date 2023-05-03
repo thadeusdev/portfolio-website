@@ -21,13 +21,13 @@ const Footer = () => {
         <span style={{color: "#f6e8f8"}}>Nyariki</span>
       </div>
       <div className="social">
-        <Link to="/" className='social-item'>
+        <Link to="https://github.com/thadeusdev" className='social-item'>
           <FiGithub className='icon'/>
         </Link>
-        <Link to="/" className='social-item'>
+        <Link to="https://www.linkedin.com/in/thadeus-nyariki/" className='social-item'>
           <FiLinkedin className='icon'/>
         </Link>
-        <Link to="/" className='social-item'>
+        <Link to="https://twitter.com/thadeus617" className='social-item'>
           <FiTwitter className='icon'/>
         </Link>
         <Link to="/" className='social-item'>

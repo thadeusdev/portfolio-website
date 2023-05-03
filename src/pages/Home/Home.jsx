@@ -20,18 +20,26 @@ const Home = () => {
           <span>Full Stack Software Developer</span>
         </div>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, laborum doloremque mollitia sunt praesentium itaque possimus quisquam eveniet dolorem, autem hic nemo, quasi consequuntur tempore ea vero incidunt accusamus doloribus omnis sint placeat! Nam tempora asperiores magni quos, rerum harum!
+          Full-Stack software Engineer with experience in building and
+          deploying web applications. Skilled in developing and maintaining the
+          front-end and back-end components of web applications using
+          technologies such as JavaScript, React, Ruby and Ruby On Rails.
+          Strong knowledge of database design and management using SQL
+          and NoSQL databases. Experienced in Agile development
+          methodologies and familiar with DevOps tools and practices. Strong
+          problem-solving and analytical skills with a passion for high-quality,
+        user-friendly software.
         </p>
         <div className="social">
           <h3>find me on</h3>
           <div className="social-items">
-            <Link to="/" className='social-item'>
+            <Link to="https://github.com/thadeusdev" className='social-item'>
               <FiGithub className='icon'/>
             </Link>
-            <Link to="/" className='social-item'>
+            <Link to="https://www.linkedin.com/in/thadeus-nyariki/" className='social-item'>
               <FiLinkedin className='icon'/>
             </Link>
-            <Link to="/" className='social-item'>
+            <Link to="https://twitter.com/thadeus617" className='social-item'>
               <FiTwitter className='icon'/>
             </Link>
             <Link to="/" className='social-item'>
