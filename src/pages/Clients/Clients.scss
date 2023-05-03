@@ -33,11 +33,11 @@
             align-items: center;
             justify-content: center;
             margin: 20px;
-            padding: 20px;
+            padding: 40px;
             border-radius: 10px;
 
             img{
-                width: 150px;
+                width: 200px;
             }
         }
     }
@@ -45,15 +45,11 @@
 
 @media only screen and (max-width:768px){
     .clients{
-        // width: 100vw;
         overflow-x: hidden;
         padding: 20px;
         margin: 0px;
 
         .top{
-            // display: flex;
-            // align-items: center;
-            // flex-direction: column;
             width: 90vw;
             span{}
             h2{
@@ -71,10 +67,10 @@
                 width: 80px;
                 height: 50px;
                 margin: 5px;
-                padding: 5px;
+                padding: 15px;
 
                 img{
-                    width: 70px;
+                    width: 90px;
                 }
             }
         }
