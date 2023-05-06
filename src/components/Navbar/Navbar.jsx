@@ -63,10 +63,12 @@ const Navbar = () => {
         >
           <span>contact</span>
         </Link>
-      </div>      
-      <div className="button">
-        download cv      
-      </div>      
+      </div>
+      <a href="Thadeus Nyariki Resume.pdf" download="Thadeus Nyariki Resume.pdf" style={{textDecoration: "none"}}>     
+        <div className="button">
+          download cv      
+        </div>  
+      </a>    
     </div>
   )
 }
