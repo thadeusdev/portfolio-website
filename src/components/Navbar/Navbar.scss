@@ -72,6 +72,12 @@
         font-weight: 600;
         cursor: pointer;
         color: #f6e8f8;
+        opacity: 1;
+        transition: all 0.3s ease;
+
+        &:hover{
+            opacity: 0.6;
+        }
     }
 }
 

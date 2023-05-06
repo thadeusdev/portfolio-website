@@ -145,6 +145,12 @@
                         border-radius: 10px;
                         margin-bottom: 8px;
                         cursor: pointer;
+                        opacity: 1;
+                        transition: all 0.3s ease;
+
+                        &:hover{
+                            opacity: 0.6;
+                        }
 
                         .send-icon{}
                     }

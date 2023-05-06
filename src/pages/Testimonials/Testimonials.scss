@@ -33,6 +33,11 @@
                 border: none;
                 border-radius: 5px;
                 cursor: pointer;
+                transition: all 0.3s ease;
+
+                &:hover{
+                    background-color: #1a1b25;
+                }
 
                 .icon{
                     color: #f6e8f8;
@@ -57,6 +62,10 @@
             display: flex;
             flex-direction: column;
             gap: 20px !important;
+
+            &:hover{
+                background-color: #1a1b25;
+            }
 
             .top-item{
                 display: flex;

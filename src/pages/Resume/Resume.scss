@@ -82,6 +82,11 @@
                             border-radius: 10px;
                             margin-bottom: 20px;
                             background-color: #272b30;
+                            transition: all 0.3s ease;
+
+                            &:hover{
+                                background-color: #1a1b25;
+                            }
 
                             .header{
                                 h3{

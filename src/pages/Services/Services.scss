@@ -25,6 +25,11 @@
             gap: 20px;
             border-radius: 10px;
             background-color: #272b30;
+            transition: all 0.3s ease;
+
+            &:hover{
+                background-color: #1a1b25;
+            }
 
             .icon{
                 height: 50px;

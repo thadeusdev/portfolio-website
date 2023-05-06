@@ -35,6 +35,11 @@
             margin: 20px;
             padding: 40px;
             border-radius: 10px;
+            transition: 0.3s;
+
+            &:hover{
+                background-color: #1a1b25;
+            }
 
             img{
                 width: 200px;
