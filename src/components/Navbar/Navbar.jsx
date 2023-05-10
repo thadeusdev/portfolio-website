@@ -64,7 +64,7 @@ const Navbar = () => {
           <span>contact</span>
         </Link>
       </div>
-      <a href="Thadeus Nyariki Resume.pdf" download="Thadeus Nyariki Resume.pdf" style={{textDecoration: "none"}}>     
+      <a href="Thadeus Nyariki Resume.docx" download="Thadeus Nyariki Resume.docx" style={{textDecoration: "none"}}>     
         <div className="button">
           download cv      
         </div>  

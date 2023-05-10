@@ -57,7 +57,7 @@ const Testimonials = () => {
             <div className="bottom-item">
               <img src={require('../../assets/girl.jpg')} alt="" />
               <div className="details">
-                <h4>Thadeus Nyariki</h4>
+                <h4>Malakai Curry</h4>
                 <span>Business manager and CEO</span>
               </div>
             </div>
@@ -93,7 +93,7 @@ const Testimonials = () => {
             <div className="bottom-item">
               <img src={require('../../assets/happy.jpg')} alt="" />
               <div className="details">
-                <h4>Thadeus Nyariki</h4>
+                <h4>Layne Yang</h4>
                 <span>Business manager and CEO</span>
               </div>
             </div>
@@ -129,7 +129,7 @@ const Testimonials = () => {
             <div className="bottom-item">
               <img src={require('../../assets/laptop.jpg')} alt="" />
               <div className="details">
-                <h4>Thadeus Nyariki</h4>
+                <h4>Skylar Day</h4>
                 <span>Business manager and CEO</span>
               </div>
             </div>
@@ -165,7 +165,7 @@ const Testimonials = () => {
             <div className="bottom-item">
               <img src={require('../../assets/mani.png')} alt="" />
               <div className="details">
-                <h4>Thadeus Nyariki</h4>
+                <h4>Felipe Rollins</h4>
                 <span>Business manager and CEO</span>
               </div>
             </div>
@@ -201,7 +201,7 @@ const Testimonials = () => {
             <div className="bottom-item">
               <img src={require('../../assets/superhero.jpg')} alt="" />
               <div className="details">
-                <h4>Thadeus Nyariki</h4>
+                <h4>Giuliana Keith</h4>
                 <span>Business manager and CEO</span>
               </div>
             </div>
