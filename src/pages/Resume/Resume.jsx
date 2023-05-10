@@ -54,40 +54,6 @@ const Resume = () => {
                 </div>
               </div>
             </div>
-            <div className="left-container">
-              <div className="line-up"></div>
-              <div className="left-item">
-                <div className="knot"></div>
-                <div className="line-across"></div>
-                <div className="item-wrapper">
-                  <div className="header">
-                    <h3>Software Developer</h3>
-                    <span style={{marginBottom: "20px"}}>
-                      Moringa School (Jun 2022-Feb 2023)
-                    </span>
-                  </div>
-                  <>
-                  <p>
-                    Developed web applications using React and Ruby on Rails, resulting in a 20%
-                    increase in user engagement and a 30% optimization in overall application
-                    performance.
-                  </p>
-                  <p>
-                    Collaborated with UX designers to deliver intuitive user interfaces, increasing user
-                    satisfaction by 15%.
-                  </p>
-                  <p>
-                    Created reusable UI components, improving application maintainability by 20% and
-                    reducing development time by 25%.
-                  </p>
-                  <p>
-                    Effectively utilized Git for version control and worked with other developers to resolve
-                    code conflicts, reducing code review feedback time by 30%.
-                  </p>
-                  </>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div className="left">
@@ -110,10 +76,22 @@ const Resume = () => {
                   </div>
                   <>
                   <p>
-                    In this intensive bootcamp, I learned how to build full-stack web applications using HTML, CSS, JavaScript, React, Ruby, and Ruby on Rails. The curriculum covered topics such as front-end development, back-end development, databases, APIs, and deployment. I gained hands-on experience by completing various projects, including a group project where I worked as Scrum master and collaborated with other developers to build a real-world web application.In this intensive bootcamp, I learned how to build full-stack web applications using HTML, CSS, JavaScript, React, Ruby, and Ruby on Rails. The curriculum covered topics such as front-end development, back-end development, databases, APIs, and deployment. I gained hands-on experience by completing various projects, including a group project where I worked as Scrum master and collaborated with other developers to build a real-world web application.
+                    Developed web applications using React and Ruby on Rails
                   </p>
                   <p>
-                    Skills: React Native · Apollo GraphQL · Node.js · Git · Ruby on Rails · Ruby · React.js · JavaScript
+                    Collaborated with Developers to deliver intuitive user interfaces.
+                  </p>
+                  <p>
+                    Created reusable UI components, improving application maintainability.
+                  </p>
+                  <p>
+                    Effectively utilized Git for version control and worked with other developers to resolve code conflicts.
+                  </p>
+                  <p>
+                    Conducted code reviews that improved code and provided valuable feedback to team members that led to reduction in bugs.
+                  </p>
+                  <p>
+                    <i>Skills:</i> React Native · Apollo GraphQL · Node.js · Git · Ruby on Rails · Ruby · React.js · JavaScript
                   </p>
                   </>
                 </div>
@@ -136,7 +114,7 @@ const Resume = () => {
                     In this program, I studied the fundamental principles of physics, including mechanics, thermodynamics, electromagnetism, and quantum mechanics. I also specialized in electronics and gained advanced knowledge in areas such as circuit design, microelectronics, semiconductor devices, and signal processing. This program equipped me with the technical expertise and research skills necessary to excel in the field of electronics.
                   </p>
                   <p>
-                    Skills: C (Programming Language) · C++ · Robotics · Critical Thinking · Problem Solving · Analytical Skills
+                  <i>Skills:</i> C (Programming Language) · C++ · Robotics · Critical Thinking · Problem Solving · Analytical Skills
                   </p>
                   </>
                 </div>

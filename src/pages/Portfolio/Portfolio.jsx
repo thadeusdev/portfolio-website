@@ -45,7 +45,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="more">
-        <Link to="/" style={{textDecoration: "none"}}>
+        <Link to="https://thadeus-projects.netlify.app/" style={{textDecoration: "none"}}>
           <button>
             View All Works 
             <AiOutlineArrowRight className='more-icon'/>

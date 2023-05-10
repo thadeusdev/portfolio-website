@@ -55,7 +55,7 @@ const Testimonials = () => {
               </span>
             </div>
             <div className="bottom-item">
-              <img src={require('../../assets/hero.jpg')} alt="" />
+              <img src={require('../../assets/girl.jpg')} alt="" />
               <div className="details">
                 <h4>Thadeus Nyariki</h4>
                 <span>Business manager and CEO</span>
@@ -91,7 +91,7 @@ const Testimonials = () => {
               </span>
             </div>
             <div className="bottom-item">
-              <img src={require('../../assets/hero.jpg')} alt="" />
+              <img src={require('../../assets/happy.jpg')} alt="" />
               <div className="details">
                 <h4>Thadeus Nyariki</h4>
                 <span>Business manager and CEO</span>
@@ -127,7 +127,7 @@ const Testimonials = () => {
               </span>
             </div>
             <div className="bottom-item">
-              <img src={require('../../assets/hero.jpg')} alt="" />
+              <img src={require('../../assets/laptop.jpg')} alt="" />
               <div className="details">
                 <h4>Thadeus Nyariki</h4>
                 <span>Business manager and CEO</span>
@@ -163,7 +163,7 @@ const Testimonials = () => {
               </span>
             </div>
             <div className="bottom-item">
-              <img src={require('../../assets/hero.jpg')} alt="" />
+              <img src={require('../../assets/mani.png')} alt="" />
               <div className="details">
                 <h4>Thadeus Nyariki</h4>
                 <span>Business manager and CEO</span>
@@ -199,7 +199,7 @@ const Testimonials = () => {
               </span>
             </div>
             <div className="bottom-item">
-              <img src={require('../../assets/hero.jpg')} alt="" />
+              <img src={require('../../assets/superhero.jpg')} alt="" />
               <div className="details">
                 <h4>Thadeus Nyariki</h4>
                 <span>Business manager and CEO</span>
