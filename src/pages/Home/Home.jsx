@@ -12,44 +12,60 @@ import {
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className="home">
       <div className="left">
         <div className="intro">
-          <h3>Hello, <span>I'm</span></h3>
+          <h3>
+            Hello&#44; <span>I&#39;m</span>
+          </h3>
           <h2>Thadeus Nyariki</h2>
-          <span>Full Stack Software Developer</span>
+          <div className="i-title">
+            <div className="i-title-wrapper">
+              <div className="i-title-item">Software Engineer</div>
+              <div className="i-title-item">Data Center Engineer</div>
+              <div className="i-title-item">Physicist</div>
+            </div>
+          </div>
         </div>
         <p>
-          Full-Stack software Engineer with experience in building and
-          deploying web applications. Skilled in developing and maintaining the
-          front-end and back-end components of web applications using
-          technologies such as JavaScript, React, Ruby and Ruby On Rails.
-          Strong knowledge of database design and management using SQL
-          and NoSQL databases. Experienced in Agile development
-          methodologies and familiar with DevOps tools and practices. Strong
-          problem-solving and analytical skills with a passion for high-quality,
-        user-friendly software.
+          Welcome to my Professional Portfolio and Expertise Hub!
+          <br />
+          <br />
+          As an accomplished Data Center Facility Engineer&#44; Software
+          Developer&#44; and Physicist&#44; I am excited to share my journey and
+          expertise with you. With a passion for technology and a deep
+          understanding of the principles that drive it&#44; I have honed my
+          skills in optimizing and maintaining state-of-the-art data center
+          infrastructures while also crafting innovative software solutions.
+          <br />
+          <br />
+          Explore my profile to learn more about how I bridge the worlds of
+          engineering&#44; development&#44; and physics to deliver reliable&#44;
+          high-performance solutions for today&#39;s technological challenges.
         </p>
         <div className="social">
           <h3>find me on</h3>
           <div className="social-items">
-            <Link to="https://github.com/thadeusdev" className='social-item'>
-              <FiGithub className='icon'/>
+            <Link to="https://github.com/thadeusdev" className="social-item">
+              <FiGithub className="icon" />
             </Link>
-            <Link to="https://www.linkedin.com/in/thadeus-nyariki/" className='social-item'>
-              <FiLinkedin className='icon'/>
+            <Link
+              to="https://www.linkedin.com/in/thadeus-nyariki/"
+              className="social-item"
+            >
+              <FiLinkedin className="icon" />
             </Link>
-            <Link to="https://twitter.com/thadeus617" className='social-item'>
-              <FiTwitter className='icon'/>
+            <Link to="https://twitter.com/thadeus617" className="social-item">
+              <FiTwitter className="icon" />
             </Link>
-            <Link to="/" className='social-item'>
-              <FiFacebook className='icon'/>
+            <Link to="/" className="social-item">
+              <FiFacebook className="icon" />
             </Link>
-            <Link to="/" className='social-item'>
-              <FiYoutube className='icon'/>
+            <Link to="/" className="social-item">
+              <FiYoutube className="icon" />
             </Link>
-            <Link to="/" className='social-item'>
-              <FiInstagram className='icon'/>
+            <Link to="/" className="social-item">
+              <FiInstagram className="icon" />
             </Link>
           </div>
         </div>
@@ -73,7 +89,7 @@ const Home = () => {
         <img src={require('../../assets/hero.png')} alt="" />
       </div>
     </div>
-  )
+  );
 }
 
 export default Home

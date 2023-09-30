@@ -3,9 +3,17 @@ import './Clients.scss'
 
 const Clients = () => {
   return (
-    <div className='clients'>
+    <div className="clients">
       <div className="top">
-        <span style={{color: '#f40840', textTransform: 'uppercase', fontWeight: 500}}>best customers</span>
+        <span
+          style={{
+            color: '#f40840',
+            textTransform: 'uppercase',
+            fontWeight: 500,
+          }}
+        >
+          best customers
+        </span>
         <h2>selected clients</h2>
       </div>
       <div className="bottom">
@@ -33,9 +41,12 @@ const Clients = () => {
         <div className="bottom-item">
           <img src={require('../../assets/MAN.png')} alt="" />
         </div>
+        <div className="bottom-item">
+          <img height={120} width={100} src={require('../../assets/Lamborghini.png')} alt="" />
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Clients

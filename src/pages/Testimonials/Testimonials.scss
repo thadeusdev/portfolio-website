@@ -55,7 +55,7 @@
             box-shadow: 1px 6px 14px -1px #15151aab;
             background-color: #272b30;
             height: 170px;
-            width: 320px !important;
+            width: 260px !important;
             margin: 10px;
             padding: 20px;
             border-radius: 10px;
@@ -89,13 +89,14 @@
                 span{
                     color: #a1aab6;
                     font-size: 13px;
+                    text-align: justify;
                 }
             }
             .bottom-item{
                 display: flex;
                 align-items: center;
                 gap: 10px;
-                margin-top: 20px;
+                margin-top: 10px;
 
                 img{
                     height: 50px;
